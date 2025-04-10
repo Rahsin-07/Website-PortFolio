@@ -1,0 +1,153 @@
+.team-header {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.team-header h3 {
+    background-color: #2d8cff;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    width: fit-content;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Individual Member Card */
+.members {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Employee Box */
+.emp-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Employee Header (Image + Name + LinkedIn) */
+.emp-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Profile Image */
+.emp-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 5px;
+    background: white;
+}
+
+/* Employee Details */
+.emp-details {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.emp-details h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.emp-details span {
+    font-size: 14px;
+    color: #555;
+}
+
+/* LinkedIn Icon */
+.linkedin-icon {
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Employee Experience */
+.emp-exp p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+/* End Section Button */
+.emp-end {
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .team-header {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+
+    .team-header h3{
+        text-align: center;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-header {
+        gap: 10px;
+    }
+
+    .emp-header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .emp-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .linkedin-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .emp-end {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+    }
+}

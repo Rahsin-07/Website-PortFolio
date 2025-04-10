@@ -1,0 +1,25 @@
+.logos  ul{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* gap: 40px;  */
+    flex-wrap: wrap; 
+    padding: 20px 0;
+    list-style: none;
+    width: 100%;
+}
+
+.logos img {
+    max-width: 100px; 
+    height: auto; 
+}
+
+
+@media (max-width: 768px) {
+    .logos ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 20px;
+        gap: 20px;
+    }
+}

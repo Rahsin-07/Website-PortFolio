@@ -1,0 +1,375 @@
+/* Centering container for all sections */
+.service-page-content {
+    /* max-width: 1200px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 120px;
+}
+
+
+
+.service-page-intro {
+    background-color: #f3f3f3;
+    display: flex;
+    gap: 100px;
+    border-radius: 52px;
+    padding: 0 40px;
+}
+
+.service-page-intro h1 {
+    font-size: 52px;
+    padding-top: 100px;
+}
+
+.service-res-image{
+    display: none;
+}
+.service-res-box-image{
+    display: none;
+}
+
+.service-page-intro img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0;
+}
+
+.service-page-seo {
+    margin-top: 50px;
+    border-radius: 52px;
+    display: flex;
+    padding: 80px 50px 50px;
+    gap: 50px;
+    background-color: #191a23;
+    color: white;
+}
+
+.service-page-seo h4 {
+    font-size: 20px;
+    background-color: #b9ff66;
+    border-radius: 12px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    line-height: 60px;
+    color: #191a23;
+}
+
+.service-page-seo p {
+    text-align: justify;
+}
+
+.seo-work {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    /* margin-left: -350px; */
+}
+
+.seo-work h3 {
+    background-color: #b9ff66;
+    padding: 5px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.seo-work p {
+    max-width: 450px;
+    word-wrap: break-word;
+}
+
+.seo-steps {
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    border-radius: 22px;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    padding-bottom: 10px;
+    height: 150px;
+}
+
+.seo-no {
+    font-size: 42px;
+    color: #b9ff66;
+    background-color: #191a23;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-page-uc {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    /* margin-left: -550px; */
+}
+
+.service-page-uc h3 {
+    background-color: #b9ff66;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.service-page-uc p {
+    max-width: 450px;
+    word-wrap: break-word;
+}
+
+.sp-usecase-content {
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 42px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Liter", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sp-inside-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    border-right: 1px solid white;
+    flex: 1;
+}
+
+.sp-inside-content a {
+    color: #b9ff66;
+}
+
+.sp-inside-content:last-child {
+    border-right: none;
+}
+
+.sp-other-head {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.sp-other-head h4 {
+    background-color: #b9ff66;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sp-other-head p {
+    max-width: 450px;
+    word-wrap: break-word;
+}
+
+.sp-content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.sp-content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 32px;
+    border-bottom: 5px solid black;
+    background-color: #f3f3f3;
+    height: 250px;
+    box-sizing: border-box;
+}
+.sp-boxleft {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.box-para {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp-career {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 22px;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+}
+
+.sp-career img {
+    padding-right: 50px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.sp-car-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.sp-car-left p {
+    padding-right: 50px;
+}
+
+.sp-career button {
+    width: 300px;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .service-page-content{
+        padding-top: 0;
+    }
+    
+    .service-page-intro{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        background-color: white;
+        
+    }
+
+    .service-page-intro img{
+        /* height: 300px; */
+        width: 100%
+    }
+    
+    .service-intro-image{
+        display: none;
+    }
+
+    .service-res-image{
+        display: block;
+    }
+ 
+    .service-page-intro h1 {
+        font-size: 28px;
+        display: flex;
+        width: 250px;
+        padding-top: 0;
+      
+    }
+    .service-page-intro p {
+        padding-top: 20px;
+       /* margin-bottom: 100px; */
+    }
+    .service-page-seo{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-page-seo h4 {
+        width: 100%;
+        height: auto;
+        line-height: normal;
+        padding: 10px;
+    }
+    .sp-logo{
+        display: none;
+    }
+    .service-page-seo p {
+     padding: 0;
+        text-align: justify;
+    }
+
+    .seo-work{
+        display: flex;
+        flex-direction: column;
+    }
+    .seo-work h3{
+        width: fit-content;
+        margin-left: 40px;
+    }
+
+    .seo-steps {
+        padding: 20px;
+        /* gap: 15px; */
+        overflow: scroll;
+    }
+
+    .seo-no {
+        width: 80px;
+        height: 60px;
+        font-size: 30px;
+        background-color: #f3f3f3;
+    }
+
+    .service-page-uc{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-page-uc h3{
+        width: fit-content;
+        margin-left: 110px;
+    }
+    .sp-usecase-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sp-inside-content {
+        border-right: none;
+        text-align: center;
+    }
+
+    .sp-other-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .sp-other-head h4{
+        width: fit-content;
+        margin-left: 70px;
+    }
+
+  
+    .sp-car-left p {
+        padding-right: 0;
+    }
+
+    .sp-career {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sp-career img {
+        padding-right: 0;
+        height: auto;
+        width: 80%;
+    }
+
+    .sp-car-left {
+        padding-left: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sp-career button {
+        width: 100%;
+    }
+}
+
+
+  

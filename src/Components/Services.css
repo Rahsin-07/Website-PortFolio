@@ -1,0 +1,290 @@
+body {
+    font-family: "Liter", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.services-container {
+    margin-top: 50px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.intro-head h2 {
+    /* font-size: 32px; */
+    background-color: #2d8cff;
+    border-radius: 8px;
+    /* letter-spacing: 1.5px; */
+    width: ft-content;
+    /* text-align: center; */
+    padding:5px;
+    /* height: 40px; */
+}
+
+.service-intro {
+    display: flex;
+    
+    gap: 20px;
+   padding-left: 30px;
+  
+}
+
+
+.intro-span p {
+    font-size: 18px;
+    font-weight: normal;
+    width: 700px;
+}
+
+/* Service Boxes */
+.content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; /* Text left, image right */
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 32px;
+    border-bottom: 5px solid black;
+    background-color: white;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+/* Background Colors */
+.content-box:nth-child(1) {
+    background-color: #d3d3d3; 
+}
+.content-box:nth-child(2) {
+    background-color: #2d8cff; 
+    color: white;
+}
+.content-box:nth-child(3) {
+    background-color: black;
+    color: white;
+}
+.content-box:nth-child(3) a {
+
+    color: white;
+}
+.content-box:nth-child(4) {
+    background-color: #d3d3d3;
+}
+.content-box:nth-child(5) {
+    background-color: #2d8cff; 
+    color: white;
+}
+.content-box:nth-child(6) {
+    background-color: black;
+    color: white;
+}
+.content-box:nth-child(6) a {
+
+    color: white;
+}
+
+
+
+/* Text Styling Inside Background */
+.box-para {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3); /* Slight transparency */
+}
+
+.content-box:nth-child(1) .box-para,
+.content-box:nth-child(4) .box-para {
+    background-color: #d3d3d3; /* Ash */
+}
+
+.content-box:nth-child(2) .box-para,
+.content-box:nth-child(5) .box-para {
+    background-color: #2d8cff; /* Blue */
+    color: white;
+}
+
+.content-box:nth-child(3) .box-para,
+.content-box:nth-child(6) .box-para {
+    background-color: black;
+    color: white;
+}
+
+/* Left Side (Text and Link) */
+.boxleft {
+    /* flex: 1 1; */
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    gap: 100px;
+}
+.boxleft a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Right Side (Image) */
+.boxright {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxright img {
+    max-width: 100%;
+    height: auto;
+    width: 120px;
+}
+
+/* Responsive Adjustments */
+
+
+/* Service End Section */
+.service-end {
+    margin-top: 40px;
+    background-color: #f3f3f3;
+    border-radius: 32px;
+    border: 1px solid black;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Flexbox for Left Text & Right Image */
+.service-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 40px;
+}
+
+/* Left Text */
+.service-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-text h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.service-text button {
+    padding: 12px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.service-text button:hover {
+    background-color: darkblue;
+}
+
+/* Right Image */
+.service-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.service-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .services-container {
+        margin-top: 0;
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    .service-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .service-intro{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .intro-span p{
+        width: 350px;
+    }
+    .service-intro h2{
+        width: fit-content;
+        margin-left: 120px;
+    }
+
+   
+
+    .service-text {
+        align-items: center;
+    }
+
+    .content-box {
+        /* flex-direction: column; */
+        /* height: auto; */
+        text-align: center;
+    }
+
+    .boxleft {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .boxright {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

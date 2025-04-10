@@ -1,0 +1,88 @@
+.usecase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.usecase-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.usecase-head h3 {
+    background-color: #2d8cff;
+    text-align: center;
+    width: fit-content;
+    border-radius: 12px;
+    line-height: 2;
+    padding: 5px 15px;
+}
+
+.usecase-head p{
+    width: 500px;
+    padding-top: 10px;
+}
+.usecase-content {
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 42px;
+    width: 90%;
+    max-width: 1000px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Liter", sans-serif;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inside-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    border-right: 1px solid white;
+    flex: 1;
+}
+
+.inside-content:last-child {
+    border-right: none;
+}
+
+
+@media (max-width: 768px) {
+    .usecase-content {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+    }
+
+    .usecase-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .usecase-head p{
+        width: auto;
+    }
+
+    .inside-content {
+        border-right: none;
+        align-items: center;
+        text-align: center;
+    }
+    .team-header h3{
+        justify-content: center;
+    }
+}

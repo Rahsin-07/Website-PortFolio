@@ -1,0 +1,261 @@
+
+
+
+.blog-content{
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blog-intro{
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    border-radius: 42px;
+}
+
+.blog-intro h6{
+    background-color: #e8e8e8;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.blog-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-exp h2{
+    font-size: 44px;
+ 
+}
+
+.content-creator {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.cc-profile{
+    display: flex;
+    justify-content: space-between;
+}
+.cc-profile-box{
+    display: flex;
+   
+  
+}
+
+.cc-profile-box img{
+    height: 60px;
+    width: 50px;
+}
+
+.cc-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 12px;
+    
+}
+
+.cc-details p {
+    
+    margin: 2px 0;
+    line-height: 1; 
+  }
+  
+
+  .cc-right {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    padding-top: 20px;
+  }
+
+  .cc-right h4,.cc-right h6{
+    opacity: 0.5;
+  }
+
+  .content-message{
+   padding-top: 50px;
+   padding-left: 200px;
+   padding-right: 200px;
+   text-align: justify;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+  }
+  
+.content-message h3{
+    font-weight: 600;
+}
+.content-message h6{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    border-left: 5px solid #b9ff66;
+padding-left: 30px;
+}
+
+.blog-facts{
+    padding-top: 50px;
+    margin: 0;
+ 
+   
+}
+
+.blog-facts h2{
+    /* width: 500px; */
+    font-weight: 500;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+}
+
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+ 
+  }
+
+ 
+.fact1{
+    border: 1px solid black;
+    width: 350px;
+    padding: 20px;
+  margin-left: 50px;
+   
+    border-radius: 32px;
+    height: 150px;
+    border-bottom: 5px solid black;
+}
+
+.fact2{
+    background-color: #b9ff66;
+    padding: 40px;
+    border-radius: 22px;
+    height: 150px;
+    width: 700px;
+    /* margin-left: 100px; */
+}
+
+.fact3{
+    background-color: #f3f3f3;
+    padding: 40px;
+    margin-left: 50px;
+    border-radius: 22px;
+    height: 150px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fact4{
+    background-color: #191a23;
+    color: white;
+    width: 350px;
+    padding: 20px;
+  /* margin-left: 50px; */
+   
+    border-radius: 32px;
+    height: 150px;
+}
+
+.real-ex{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.insights{
+    display: flex;
+    gap: 20px;
+}
+
+.insights h3{
+    background-color: #b9ff66;
+    padding: 5px;
+    width: fit-content;
+    border-radius:  8px;
+}
+.insights p{
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .blog-content {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0;
+    }
+    .blog-img img{
+        height: 300px;
+    }
+    .blog-intro {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .blog-exp h2 {
+      font-size: 32px;
+    }
+  
+    .cc-profile {
+      /* flex-direction: column; */
+      gap: 10px;
+    }
+  
+    .cc-right {
+      justify-content: flex-start;
+      padding-top: 10px;
+    }
+  
+    .content-message {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .content-message h6 {
+      font-size: 24px;
+      padding-left: 20px;
+    }
+  
+    .blog-facts h2 {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 24px;
+    }
+  
+    .facts {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .fact1,
+    .fact2,
+    .fact3,
+    .fact4 {
+      width: 100%;
+      margin-left: 0;
+      height: auto;
+    }
+  
+    .real-ex {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .insights {
+      flex-direction: column;
+    }
+  }
+  
