@@ -449,9 +449,9 @@ border-radius: 12px;
 
   .res-about-us-image {
     display: block;
-    height: 350px;
+    height: 200px;
     width: 100%;
-    max-width: 350px;
+    max-width: 250px;
     padding-left: 0;
     margin: 0 auto;
   }
@@ -480,6 +480,17 @@ border-radius: 12px;
     width: 100%;
     max-width: 300px;
     text-align: center;
+  }
+  .introleft img{
+    display: none;
+  }
+
+  .horizontal-line, .horizontal-line2, .horizontal-line3{
+    display: none;
+  }
+
+  .journey-list img{
+    display: none;
   }
 
   .impact-header {
@@ -604,7 +615,7 @@ border-radius: 12px;
     font-size: 32px;
     width: 100%;
     max-width: 180px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .core-image img {
@@ -634,11 +645,19 @@ border-radius: 12px;
     margin-right: auto;
   }
 
+.awards h3{
+  width: fit-content;
+}
+
   .award-lists {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 10px;
+  }
+
+  .awards p {
+    padding-right: 0;
   }
 
   .award-item {
@@ -689,5 +708,9 @@ border-radius: 12px;
     height: 250px;
     width: 100%;
     max-width: 350px;
+  }
+
+  .spider-logo::after,.spider-logo2::after, .spider-logo3::after,.spider-logo4::after{
+    display: none;
   }
 }
