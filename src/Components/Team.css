@@ -113,11 +113,11 @@
         gap: 10px;
         display: flex;
         flex-direction: column;
-        padding-left: 60px;
+        margin-left: 70px;
     }
 .team-header p{
     text-align: center;
-    width: 250px;
+    width: 270px;
 }
     .team-members{
         display: flex;

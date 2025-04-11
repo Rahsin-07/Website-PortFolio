@@ -125,6 +125,7 @@
    .test-head {
        flex-direction: column;
        align-items: flex-start;
+       text-align: center;
        padding-left: 100px;
        gap: 10px;
    }
