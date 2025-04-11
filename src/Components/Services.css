@@ -255,11 +255,11 @@ body {
         flex-direction: column;
     }
     .intro-span p {
-        width: 200px;
+        width: 250px;
     }
     .service-intro h2 {
         width: fit-content;
-        margin-left: 120px;
+        margin-left: 80px;
     }
     .service-text {
         align-items: center;
