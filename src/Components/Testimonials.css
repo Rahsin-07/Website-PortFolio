@@ -126,12 +126,12 @@
        flex-direction: column;
        align-items: flex-start;
        text-align: center;
-       padding-left: 100px;
+       padding-left: 80px;
        gap: 10px;
    }
    .test-head h3 {
        font-size: 18px;
-     
+      margin-left: 40px;
        border-radius: 6px;
      
    }
