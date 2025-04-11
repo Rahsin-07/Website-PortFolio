@@ -255,7 +255,7 @@ body {
         flex-direction: column;
     }
     .intro-span p {
-        width: 350px;
+        width: 200px;
     }
     .service-intro h2 {
         width: fit-content;

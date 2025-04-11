@@ -116,8 +116,7 @@
 }
 
 .service-page-uc p {
-    max-width: 450px;
-    word-wrap: break-word;
+   width: 250px;
 }
 
 .sp-usecase-content {

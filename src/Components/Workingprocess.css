@@ -102,6 +102,9 @@ color: black;
       text-align: center;
       margin-left: 0;
   }
+  .work-heading p{
+    width: 200px;
+  }
   .Work-container {
       width: 90%;
       display: flex;
