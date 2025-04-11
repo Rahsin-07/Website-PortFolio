@@ -256,6 +256,7 @@ body {
     }
     .intro-span p {
         width: 250px;
+        text-align: justify;
     }
     .service-intro h2 {
         width: fit-content;
