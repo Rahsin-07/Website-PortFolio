@@ -73,6 +73,7 @@
     }
     .usecase-head p {
         width: auto;
+        text-align: center;
     }
     .inside-content {
         border-right: none;

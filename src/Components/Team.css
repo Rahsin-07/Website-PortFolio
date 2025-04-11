@@ -111,13 +111,20 @@
 @media (max-width: 768px) {
     .team-header {
         gap: 10px;
+        display: flex;
+        flex-direction: column;
     }
+.team-header p{
+    text-align: center;
+    width: 250px;
+}
     .team-members{
         display: flex;
         flex-direction: column;
     }
     .team-header p{
         width: 200px;
+     
     }
     .team-header h3 {
         margin-left: 0;
