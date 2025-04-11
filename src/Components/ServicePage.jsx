@@ -172,6 +172,7 @@ const ServicePage = () => {
                 <div key={index} className="sp-content-box">
                   <div className="sp-boxleft">
                     <p className="box-para">{service.text}</p>
+                    <img className="service-box-res-image" src={service.img} alt={service.text} />
          
                     
                     <a href="https://www.google.com">

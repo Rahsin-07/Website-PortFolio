@@ -126,12 +126,15 @@ body {
 /* Left Side (Text and Link) */
 .boxleft {
     /* flex: 1 1; */
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* align-items: flex-start; */
     gap: 100px;
+   
+}
+.service-box-res-image{
+    display: none;
 }
 .boxleft a {
     display: flex;
@@ -280,11 +283,26 @@ body {
         align-items: center;
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        padding-left: 50px;
+        
+    }
+
+    .boxleft img {
+        height: 150px;
+    }
+    .boxleft {
+        gap: 0;
     }
 
     .boxright {
         justify-content: center;
         margin-top: 10px;
+    }
+    .service-box-res-image{
+        display: block;
+    }
+    .boxright img {
+        
+        display: none;
     }
 }

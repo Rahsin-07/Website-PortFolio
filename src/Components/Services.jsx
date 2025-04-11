@@ -29,6 +29,7 @@ const Services = () => {
           <div key={index} className="content-box">
             <div className="boxleft">
               <p className="box-para">{service.text}</p>
+              <img className="service-box-res-image" src={service.img} alt={service.text} />
               <a href="https://www.google.com">
                 <BsArrowUpRightCircle className="icon" /> Learn More
               </a>
@@ -51,7 +52,7 @@ const Services = () => {
             <button>Get your free proposal</button>
           </div>
           <div className="service-image">
-            <img src="Frame 19.png" alt="Marketing Illustration" />
+            <img src="Frame 19.png" alt="Marketing Illustration" className="service-box-web-image"  />
           </div>
         </div>
       </div>
