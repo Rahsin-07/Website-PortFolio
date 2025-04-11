@@ -61,28 +61,25 @@
     border-right: none;
 }
 
-
 @media (max-width: 768px) {
     .usecase-content {
         flex-direction: column;
         height: auto;
         padding: 30px;
     }
-
-    .usecase-head{
+    .usecase-head {
         display: flex;
         flex-direction: column;
     }
-    .usecase-head p{
+    .usecase-head p {
         width: auto;
     }
-
     .inside-content {
         border-right: none;
         align-items: center;
         text-align: center;
     }
-    .team-header h3{
+    .team-header h3 {
         justify-content: center;
     }
 }

@@ -98,61 +98,54 @@ span {
 
 
 
-
 @media screen and (max-width: 768px) {
-    .navbar{
+    .navbar {
         padding-top: 0 !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
         width: 100%;
         position: relative;
-       
     }
-   
-    .navbar .logo{
+    .navbar .logo {
         display: flex;
         justify-content: space-between;
         width: 100%;
         padding: 0px 30px;
     }
-    .navbar .btn{
+    .navbar .btn {
         display: none;
     }
-    .navbar ul{
+    .navbar ul {
         display: none;
-       
     }
-    .navbar .menu-btn{
+    .navbar .menu-btn {
         display: block;
     }
-   .resp-nav{
-    display: block;
-    position: absolute;
-    top: 80px;
-   right: 50px;
-    margin-left: 0 !important;
-    margin-bottom:0 !important;
-    width: 80%;
-   }
-   .resp-nav ul{
-    padding-top: 20px;
-     width: 100%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   
+    .resp-nav {
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        width: 80%;
     }
-    
-    .resp-nav ul a{
+    .resp-nav ul {
+        padding-top: 20px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .resp-nav ul a {
         text-decoration: none;
         color: black;
         font-weight: 100px;
     }
-
-    .btn-outline-success{
+    .btn-outline-success {
         background-color: white;
-        color: black  ;
+        color: black;
         width: 200px;
         height: 50px;
         margin-bottom: 20px;

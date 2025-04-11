@@ -14,7 +14,6 @@
     height: auto; 
 }
 
-
 @media (max-width: 768px) {
     .logos ul {
         display: grid;

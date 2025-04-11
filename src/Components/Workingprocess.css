@@ -96,40 +96,33 @@ color: black;
   text-align: left;
 }
 
-
-
 @media (max-width: 768px) {
   .work-heading {
       flex-direction: column;
       text-align: center;
       margin-left: 0;
   }
-
   .Work-container {
       width: 90%;
       display: flex;
       flex-direction: column;
   }
-
   .work-box {
       height: auto;
       padding: 15px;
       display: flex;
   }
-
   .work-header {
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 24px;
-        height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 24px;
+      height: auto;
   }
-
   .work-content {
       text-align: center;
   }
-
-  .team-header h3{
-    margin-left: 170px;
+  .team-header h3 {
+      margin-left: 170px;
   }
 }

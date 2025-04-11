@@ -238,7 +238,6 @@ body {
     max-width: 400px;
     height: auto;
 }
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .services-container {
@@ -246,63 +245,53 @@ body {
         padding: 0 20px;
         width: 100%;
     }
-    
     .service-content {
         flex-direction: column;
         text-align: center;
         gap: 20px;
     }
-
-    .service-intro{
+    .service-intro {
         display: flex;
         flex-direction: column;
-
     }
-
-    .intro-span p{
+    .intro-span p {
         width: 350px;
     }
-    .service-intro h2{
+    .service-intro h2 {
         width: fit-content;
         margin-left: 120px;
     }
-
-   
-
     .service-text {
         align-items: center;
     }
-
     .content-box {
         /* flex-direction: column; */
         /* height: auto; */
         text-align: center;
     }
-
     .boxleft {
         align-items: center;
         display: flex;
         flex-direction: column;
         padding-left: 20px;
-        
     }
-
     .boxleft img {
         height: 150px;
     }
     .boxleft {
         gap: 0;
     }
-
     .boxright {
         justify-content: center;
         margin-top: 10px;
     }
-    .service-box-res-image{
+    .service-box-res-image {
         display: block;
     }
     .boxright img {
-        
         display: none;
     }
 }
+
+
+/* doubt */
