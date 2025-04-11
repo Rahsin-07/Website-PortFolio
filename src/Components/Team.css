@@ -112,8 +112,16 @@
     .team-header {
         gap: 10px;
     }
+    .team-members{
+        display: flex;
+        flex-direction: column;
+    }
     .team-header p{
         width: 200px;
+    }
+    .team-header h3 {
+        margin-left: 0;
+        height: fit-content;
     }
     .emp-header {
         flex-direction: row;
