@@ -280,9 +280,6 @@ body {
         flex-direction: column;
         padding-left: 20px;
     }
-    .boxright{
-        display: none;
-    }
     .boxleft img {
         height: 150px;
     }
@@ -293,8 +290,8 @@ body {
         justify-content: center;
         margin-top: 10px;
     }
-    .service-end img {
-        display: none;
+    .service-box-res-image {
+        display: block;
     }
     .boxright img {
         display: none;
