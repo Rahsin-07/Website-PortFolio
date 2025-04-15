@@ -479,7 +479,7 @@ border-radius: 12px;
     margin: 0 auto;
     width: 100%;
     max-width: 300px;
-    text-align: center;
+    text-align: left;
   }
   .introleft img{
     display: none;
@@ -503,6 +503,11 @@ border-radius: 12px;
   .impact-header h4 {
     margin-left: 0;
     text-align: center;
+  }
+
+  .impact-header p {
+    text-align: center;
+    padding-left: 40px;
   }
 
   .journey {
@@ -556,18 +561,26 @@ border-radius: 12px;
   .number1,
   .number2,
   .number3,
-  .number4,
-  .number5 {
+  .number4 {
     width: 100%;
     margin-left: 0;
     text-align: center;
   }
+    .number5{
+      width: 100%;
+      margin-left: 40px;
+      border-top-right-radius: 20px;
+    }
 
   .year h1,
   .year2021 h1 {
     padding-left: 0;
     text-align: center;
   }
+
+      .year-exp-content p {
+        text-align: left;
+      }
 
   .core-values {
     padding: 0 15px;
@@ -619,10 +632,7 @@ border-radius: 12px;
   }
 
   .core-image img {
-    height: 300px;
-    padding-left: 60px;
-    margin: 0 auto;
-    display: block;
+   display: none;
   }
 
   .core-items-odd,
@@ -631,7 +641,9 @@ border-radius: 12px;
     max-width: 400px;
     margin: 0 auto;
   }
-
+  .core-items-odd p {
+    padding-top: 15px;
+  }
   .awards {
     display: flex;
     flex-direction: column;
@@ -703,11 +715,7 @@ border-radius: 12px;
   }
 
   .career img {
-    display: block;
-    margin: 20px auto 0 auto;
-    height: 250px;
-    width: 100%;
-    max-width: 350px;
+    display: none;
   }
 
   .spider-logo::after,.spider-logo2::after, .spider-logo3::after,.spider-logo4::after{
