@@ -168,12 +168,17 @@
         /* margin-left: 80px; */
         width: fit-content;
       }
+
+      .price-box{
+        height: auto;
+        width: auto;
+      }
     
     
       .price-header {
         font-size: 20px;
-        height: fit-content;
-        
+       
+
       }
     
       .price-header span {
