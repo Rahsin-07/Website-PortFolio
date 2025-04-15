@@ -165,13 +165,15 @@
       }
     
       .price-questions {
-        margin-left: 80px;
+        /* margin-left: 80px; */
         width: fit-content;
       }
     
     
       .price-header {
         font-size: 20px;
+        height: fit-content;
+        
       }
     
       .price-header span {
