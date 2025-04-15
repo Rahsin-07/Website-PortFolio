@@ -264,6 +264,7 @@ body {
     }
     .service-text {
         align-items: center;
+        gap: 20px;
     }
     .service-text button{
         height: fit-content;
