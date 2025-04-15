@@ -240,7 +240,7 @@ const AboutUs = () => {
             <img src="Illustration07.png" alt="Marketing Illustration" />
           </div>
           <div className="core-text">
-            <h1>"At Positivus,we believe that success is built on innovation,collaboration and a relentless focus on delivering results."</h1>
+            <h1>"At Positivus,we believe that success is built on innovation and a relentless focus on delivering results."</h1>
             <p>
               --Nishar Ahammed ,Founder
             </p>
