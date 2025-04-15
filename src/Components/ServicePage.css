@@ -276,8 +276,9 @@
        /* margin-bottom: 100px; */
     }
     .service-page-seo{
-        display: flex;
         flex-direction: column;
+        gap: 0;
+        padding-top: 30px;
     }
     .service-page-seo h4 {
         width: 80%;
