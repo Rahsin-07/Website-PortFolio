@@ -293,8 +293,8 @@ body {
         justify-content: center;
         margin-top: 10px;
     }
-    .service-box-res-image {
-        display: block;
+    .service-end img {
+        display: none;
     }
     .boxright img {
         display: none;

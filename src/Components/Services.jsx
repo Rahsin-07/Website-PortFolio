@@ -20,10 +20,10 @@ const Services = () => {
         {/* Service Boxes */}
         {[
           { text: "Search Engine Optimization", img: "box1.webp" },
-          { text: "Pay-Per-Click Advertising", img:  "analytics.png"},
-          { text: "Social Media Marketing", img: "box1.webp"  },
-          { text: "Email Marketing", img:"analytics.png" },
-          { text: "Content Creation", img:"box1.webp"  },
+          { text: "Pay-Per-Click Advertising", img: "box2.webp" },
+          { text: "Social Media Marketing", img: "email.png" },
+          { text: "Email Marketing", img: "email.png" },
+          { text: "Content Creation", img: "content.png" },
           { text: "Data & Analytics Tracking", img: "analytics.png" },
         ].map((service, index) => (
           <div key={index} className="content-box">

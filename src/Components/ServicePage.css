@@ -113,10 +113,11 @@
     background-color: #b9ff66;
     padding: 10px;
     border-radius: 8px;
+    height: fit-content;
 }
 
 .service-page-uc p {
-   width: 250px;
+   width: 450px;
 }
 
 .sp-usecase-content {
