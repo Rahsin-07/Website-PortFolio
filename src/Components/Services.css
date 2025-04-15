@@ -293,6 +293,9 @@ body {
     .service-box-res-image {
         display: block;
     }
+    .service-box-web-image{
+        display: none;
+    }
     .boxright img {
         display: none;
     }
