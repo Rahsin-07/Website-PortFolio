@@ -291,6 +291,9 @@
   .service-web-image{
     display: none;
   }
+  .sbox{
+    width: 140px;
+  }
 
   .service-res-image{
     display: block;
@@ -343,9 +346,7 @@
       padding-left: 20px;
      
     }
-    .success-stories h4 {
-margin-left: 100px;
-    }
+   
   
    .uc-testimonials h4{
        margin-left: 120px;
@@ -353,6 +354,7 @@ margin-left: 100px;
     .success-stories p,
     .uc-testimonials p {
       width: 100%;
+      text-align: center;
     }
   
     .uc-usecase-content {
