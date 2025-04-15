@@ -280,6 +280,9 @@ body {
         flex-direction: column;
         padding-left: 20px;
     }
+    .boxright{
+        display: none;
+    }
     .boxleft img {
         height: 150px;
     }

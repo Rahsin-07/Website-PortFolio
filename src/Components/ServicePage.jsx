@@ -162,12 +162,12 @@ const ServicePage = () => {
        <div className="sp-content-boxes">
               {/* Service Boxes */}
               {[
-                { text: "Search Engine Optimization", img: "box1.webp" },
-                { text: "Pay-Per-Click Advertising", img: "box2.webp" },
-                { text: "Social Media Marketing", img: "socialmedia.png" },
-                { text: "Email Marketing", img: "email.png" },
-                { text: "Content Creation", img: "content.png" },
-                { text: "Data & Analytics Tracking", img: "analytics.png" },
+               { text: "Search Engine Optimization", img: "box1.webp" },
+               { text: "Pay-Per-Click Advertising", img:  "analytics.png"},
+               { text: "Social Media Marketing", img: "box1.webp"  },
+               { text: "Email Marketing", img:"analytics.png" },
+               { text: "Content Creation", img:"box1.webp"  },
+               { text: "Data & Analytics Tracking", img: "analytics.png" },
               ].map((service, index) => (
                 <div key={index} className="sp-content-box">
                   <div className="sp-boxleft">

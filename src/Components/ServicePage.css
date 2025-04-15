@@ -261,10 +261,11 @@
 
     .service-res-image{
         display: block;
+        width: 100%;
     }
  
     .service-page-intro h1 {
-        font-size: 28px;
+        font-size: 38px;
         display: flex;
         width: 250px;
         padding-top: 0;
@@ -279,10 +280,12 @@
         flex-direction: column;
     }
     .service-page-seo h4 {
-        width: 100%;
+        width: 70%;
         height: auto;
         line-height: normal;
         padding: 10px;
+        background-color: #191a23;
+        color: white;
     }
     .sp-logo{
         display: none;
@@ -298,7 +301,7 @@
     }
     .seo-work h3{
         width: fit-content;
-        margin-left: 40px;
+        
     }
 
     .seo-steps {
@@ -320,7 +323,7 @@
     }
     .service-page-uc h3{
         width: fit-content;
-        margin-left: 110px;
+        /* margin-left: 110px; */
     }
     .sp-usecase-content {
         flex-direction: column;
@@ -333,10 +336,14 @@
     }
     .sp-boxleft{
         gap: 0;
-        padding-left: 60px;
+        /* padding-left: 60px; */
     }
     .sp-boxleft img{
-        height: 150px;
+        height: 100px;
+    }
+
+    .sp-boxleft a {
+        padding-top: 30px;
     }
     .sp-other-head{
         display: flex;
@@ -344,9 +351,11 @@
     }
     .sp-other-head h4{
         width: fit-content;
-        margin-left: 70px;
+        /* margin-left: 70px; */
     }
-
+    .sp-content-box{
+        justify-content: center;
+    }
   
     .sp-car-left p {
         padding-right: 0;
